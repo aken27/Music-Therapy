@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>10502615855-8sukdmila17o9q7tu1nfkcjptgfi0c2r.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.10502615855-8sukdmila17o9q7tu1nfkcjptgfi0c2r</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAWPIqmR3o6pWyA7qOLqOKWuoA3o-HURGs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>10502615855</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ShivanshKhera.musictherapy</string>
+	<key>PROJECT_ID</key>
+	<string>musictherapy-b9044</string>
+	<key>STORAGE_BUCKET</key>
+	<string>musictherapy-b9044.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:10502615855:ios:e95187f84d9f1e110b67da</string>
+</dict>
+</plist>

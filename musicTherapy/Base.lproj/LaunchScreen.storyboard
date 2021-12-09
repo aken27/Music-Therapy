@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Created with ❤️ by Aken" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jwR-Td-QQ2">
+                                <rect key="frame" x="0.0" y="527" width="320" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch.png" translatesAutoresizingMaskIntoConstraints="NO" id="c5d-kA-nMv">
+                                <rect key="frame" x="0.0" y="124" width="320" height="320"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="c5d-kA-nMv" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="1GI-YY-GCD"/>
+                            <constraint firstItem="c5d-kA-nMv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="124" id="HhE-TU-HJh"/>
+                            <constraint firstItem="jwR-Td-QQ2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="JCP-6G-isf"/>
+                            <constraint firstItem="jwR-Td-QQ2" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="NiY-UP-HfC"/>
+                            <constraint firstItem="c5d-kA-nMv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Qtp-5y-dFS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="jwR-Td-QQ2" secondAttribute="bottom" constant="20" id="Y4N-V7-6el"/>
+                            <constraint firstItem="c5d-kA-nMv" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="aaL-2h-Kmt"/>
+                            <constraint firstItem="c5d-kA-nMv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="iPH-e2-MDH"/>
+                            <constraint firstItem="c5d-kA-nMv" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="uiY-to-tsw"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.5" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="launch.png" width="280.25" height="280.25"/>
+    </resources>
+</document>
